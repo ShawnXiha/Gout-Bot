@@ -1,0 +1,247 @@
+version: '2.0'
+
+nlu:
+- intent: 挂科
+  examples: |
+    - 痛风挂什么科？
+
+- intent: 非布司他体检
+  examples: |
+    - 服用非布司他应该做哪些体检？
+
+- intent: 别嘌醇体检
+  examples: |
+    - 服用别嘌醇需要做什么体检
+
+- intent: 苯溴马隆体检
+  examples: |
+    - 服用苯溴马隆应该做哪些体检？
+
+- intent: 无症状高尿酸体检
+  examples: |
+    - 无症状高尿酸未服药应该做哪些体检？
+
+- intent: 何为溶晶痛
+  examples: |
+    - 什么是“溶晶痛”？
+
+- intent: 溶晶特点
+  examples: |
+    - “溶晶痛”有什么特点？
+
+- intent: 预防溶晶
+  examples: |
+    - 如何预防溶晶痛？
+
+- intent: 如何处理溶晶
+  examples: |
+    - “溶晶痛”怎么处理？
+
+- intent: 溶晶痛时间
+  examples: |
+    - “溶晶痛”会持续多久？
+
+- intent: 判断溶晶
+  examples: |
+    - 我尿酸长期 360 以下了，没有“溶晶痛”，有在溶晶吗？
+
+- intent: 溶晶期时间
+  examples: |
+    - 溶晶期需要多久？什么时候可以把结晶溶解完？
+
+- intent: 痛风确诊
+  examples: |
+    - 痛风怎么确诊？
+
+- intent: 为何发作尿酸低
+  examples: |
+    - 痛风发作时候尿酸比较低？
+
+- intent: 痛风鉴别
+  examples: |
+    - 痛风怎么鉴别，避免误诊?
+
+- intent: 痛风急性发作的因素
+  examples: |
+    - 哪些些因素会引发痛风急性发作？
+
+- intent: 痛风发作如何处理
+  examples: |
+    - 痛风发作怎么处理?
+
+- intent: 痛风危害
+  examples: |
+    - 痛风有什么危害?
+
+- intent: 过早停药
+  examples: |
+    - 停药过早会怎么样？
+
+- intent: 尿酸不达标
+  examples: |
+    - 尿酸不达标会怎么样？
+
+- intent: 如何停药
+  examples: |
+    - 什么时候能停药？
+
+- intent: 痛风石原因与治疗
+  examples: |
+    - 痛风合并痛风石原因和怎么治疗？
+
+- intent: 担忧无法根治
+  examples: |
+    - 痛风不能根治，一辈子都要担惊受怕？
+
+- intent: 中药调理有没有用
+  examples: |
+    - 既然痛风是肝肾出了问题，那用中药调理肝肾不就好了吗？
+
+- intent: 推荐尿酸仪
+  examples: |
+    - 有什么尿酸/血压/血糖测试仪器推荐吗?
+
+- intent: 小便泡沫
+  examples: |
+    - 小便有泡沫怎么办?
+
+- intent: 痛风遗传
+  examples: |
+    - 痛风会遗传给自己的孩子？
+
+- intent: 痛风寿命
+  examples: |
+    - 痛风影响寿命吗？
+
+- intent: 痛风海产品
+  examples: |
+    - 得了痛风终身与海产品无缘？
+
+- intent: 何时生活干预
+  examples: |
+    - 什么情况下适合生活干预？
+
+- intent: 生活干预成功率
+  examples: |
+    - 生活干预的成功率有多少？
+
+- intent: 如何生活干预
+  examples: |
+    - 生活干预有哪些？
+
+- intent: 为何碱化尿液
+  examples: |
+    - 为什么要碱化尿液？
+
+- intent: 碱化尿液方法
+  examples: |
+    - 碱化尿液的方法有哪些？
+
+- intent: 碳酸氢钠降尿酸
+  examples: |
+    - 听闻碳酸氢钠可以降尿酸？
+
+- intent: 碳酸氢钠长期吃
+  examples: |
+    - 碳酸氢钠说明书写不能超过 7 天，为什么医生开一个月？
+
+- intent: 肾结石x光
+  examples: |
+    - X 线检查能查到尿酸性肾结石吗？
+
+- intent: 尿酸性肾结石
+  examples: |
+    - 尿酸性肾结石怎么治疗？
+
+- intent: 避免ahs
+  examples: |
+    - 如何避免 AHS 的发生？
+
+- intent: 别嘌醇适合哪些人
+  examples: |
+    - 哪些人群适用别醇？
+
+- intent: 非布司他副作用
+  examples: |
+    - 非布司他副作用和不良反应有哪些？
+
+- intent: 非布与长期忌口
+  examples: |
+    - 服用非布司他需要长期忌口吗？
+
+- intent: 非布提高肌酐怎么办
+  examples: |
+    - 服用非布司他肌酐升高了怎么办？
+
+- intent: 国产非布司他那种好
+  examples: |
+    - 三大国产哪种最好？他们有什么特点？
+
+- intent: 那种降酸药好
+  examples: |
+    - 降酸药种好？哪种副作用最小？
+
+- intent: 非布与苯溴马隆联合
+  examples: |
+    - 非布司他和苯溴马隆可以一起吃吗？
+
+- intent: 碱化尿液与别嘌醇非布司他
+  examples: |
+    - 别嘌醇和非布司他需要碱化尿液吗？
+
+- intent: 非布司他分开吃
+  examples: |
+    - 非布司他分开早晚可以额外降尿酸吗？
+
+- intent: 非布司他胸闷
+  examples: |
+    - 吃了非布司他胸闷，肋骨或者心脏附近刺痛感，是什么原因？
+
+- intent: 脂肪肝也非布司他
+  examples: |
+    - 我有脂肪肝，可以吃非布司他吗？
+
+- intent: 吃药和吃饭
+  examples: |
+    - 别嘌醇/非布司他/苯溴马隆应空腹服用还是餐后服？
+
+- intent: 为何直接从非布司他
+  examples: |
+    - 为什么医生没有给我做分型就给我开非布司他？
+
+- intent: 如何减量
+  examples: |
+    - 降酸药啥时候可以减量呢？
+
+- intent: 降酸药体检
+  examples: |
+    - 降酸药应该做哪些体检？
+
+- intent: 降酸药是否依赖耐药
+  examples: |
+    - 降酸药会有耐药性和依赖性吗？听说吃上了停不了了？
+
+- intent: 不能吃降酸药的情况
+  examples: |
+    - 什么情况下不能吃降酸药？
+
+- intent: 是否想吃保肝药物
+  examples: |
+    - 吃药“伤”肝，我可以先吃护肝药不？
+
+- intent: 降酸药备孕
+  examples: |
+    - 吃降酸药可以备孕吗？
+
+- intent: 抗炎药备孕
+  examples: |
+    - 秋水仙碱，非甾体抗炎药备孕可以服用吗？
+
+- intent: 停药概率
+  examples: |
+    - 降酸药需要终身服药吗？停药的概率有多少？
+
+- intent: 兼有降酸药物
+  examples: |
+    - 兼降尿酸的药物有哪些？
+
