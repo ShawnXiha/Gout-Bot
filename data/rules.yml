@@ -1,13 +1,408 @@
-version: "3.1"
+version: '3.1'
 
 rules:
+ - rule: 挂号科室
+   steps:
+    - intent:挂号科室
+    - action:utter_挂号科室
 
-- rule: Say goodbye anytime the user says goodbye
-  steps:
-  - intent: goodbye
-  - action: utter_goodbye
+ - rule: 非布司他体检
+   steps:
+    - intent:非布司他体检
+    - action:utter_非布司他体检
 
-- rule: Say 'I am a bot' anytime the user challenges
-  steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+ - rule: 别嘌醇体检
+   steps:
+    - intent:别嘌醇体检
+    - action:utter_别嘌醇体检
+
+ - rule: 苯溴马隆体检
+   steps:
+    - intent:苯溴马隆体检
+    - action:utter_苯溴马隆体检
+
+ - rule: 无症状高尿酸体检
+   steps:
+    - intent:无症状高尿酸体检
+    - action:utter_无症状高尿酸体检
+
+ - rule: 何为溶晶痛
+   steps:
+    - intent:何为溶晶痛
+    - action:utter_何为溶晶痛
+
+ - rule: 溶晶特点
+   steps:
+    - intent:溶晶特点
+    - action:utter_溶晶特点
+
+ - rule: 预防溶晶
+   steps:
+    - intent:预防溶晶
+    - action:utter_预防溶晶
+
+ - rule: 如何处理溶晶
+   steps:
+    - intent:如何处理溶晶
+    - action:utter_如何处理溶晶
+
+ - rule: 溶晶痛时间
+   steps:
+    - intent:溶晶痛时间
+    - action:utter_溶晶痛时间
+
+ - rule: 判断溶晶
+   steps:
+    - intent:判断溶晶
+    - action:utter_判断溶晶
+
+ - rule: 溶晶期时间
+   steps:
+    - intent:溶晶期时间
+    - action:utter_溶晶期时间
+
+ - rule: 溶晶阶段
+   steps:
+    - intent:溶晶阶段
+    - action:utter_溶晶阶段
+
+ - rule: 痛风确诊
+   steps:
+    - intent:痛风确诊
+    - action:utter_痛风确诊
+
+ - rule: 为何发作尿酸低
+   steps:
+    - intent:为何发作尿酸低
+    - action:utter_为何发作尿酸低
+
+ - rule: 痛风鉴别
+   steps:
+    - intent:痛风鉴别
+    - action:utter_痛风鉴别
+
+ - rule: 痛风急性发作的因素
+   steps:
+    - intent:痛风急性发作的因素
+    - action:utter_痛风急性发作的因素
+
+ - rule: 镇痛心得
+   steps:
+    - intent:镇痛心得
+    - action:utter_镇痛心得
+
+ - rule: 痛风发作处理
+   steps:
+    - intent:痛风发作处理
+    - action:utter_痛风发作处理
+
+ - rule: 痛风长期不好的原因
+   steps:
+    - intent:痛风长期不好的原因
+    - action:utter_痛风长期不好的原因
+
+ - rule: 痛风长期不好的处理
+   steps:
+    - intent:痛风长期不好的处理
+    - action:utter_痛风长期不好的处理
+
+ - rule: 痛风危害
+   steps:
+    - intent:痛风危害
+    - action:utter_痛风危害
+
+ - rule: 降尿酸目标
+   steps:
+    - intent:降尿酸目标
+    - action:utter_降尿酸目标
+
+ - rule: 药物治疗的时机
+   steps:
+    - intent:药物治疗的时机
+    - action:utter_药物治疗的时机
+
+ - rule: 非药物治疗
+   steps:
+    - intent:非药物治疗
+    - action:utter_非药物治疗
+
+ - rule: 痛风阶段
+   steps:
+    - intent:痛风阶段
+    - action:utter_痛风阶段
+
+ - rule: 不痛不治
+   steps:
+    - intent:不痛不治
+    - action:utter_不痛不治
+
+ - rule: 秋水仙碱副作用大
+   steps:
+    - intent:秋水仙碱副作用大
+    - action:utter_秋水仙碱副作用大
+
+ - rule: 无症状高尿酸血症的治疗
+   steps:
+    - intent:无症状高尿酸血症的治疗
+    - action:utter_无症状高尿酸血症的治疗
+
+ - rule: 过早停药
+   steps:
+    - intent:过早停药
+    - action:utter_过早停药
+
+ - rule: 尿酸不达标
+   steps:
+    - intent:尿酸不达标
+    - action:utter_尿酸不达标
+
+ - rule: 如何停药
+   steps:
+    - intent:如何停药
+    - action:utter_如何停药
+
+ - rule: 痛风石原因与治疗
+   steps:
+    - intent:痛风石原因与治疗
+    - action:utter_痛风石原因与治疗
+
+ - rule: 担忧无法根治
+   steps:
+    - intent:担忧无法根治
+    - action:utter_担忧无法根治
+
+ - rule: 中药调理有没有用
+   steps:
+    - intent:中药调理有没有用
+    - action:utter_中药调理有没有用
+
+ - rule: 推荐尿酸仪
+   steps:
+    - intent:推荐尿酸仪
+    - action:utter_推荐尿酸仪
+
+ - rule: 小便泡沫
+   steps:
+    - intent:小便泡沫
+    - action:utter_小便泡沫
+
+ - rule: 痛风遗传
+   steps:
+    - intent:痛风遗传
+    - action:utter_痛风遗传
+
+ - rule: 痛风寿命
+   steps:
+    - intent:痛风寿命
+    - action:utter_痛风寿命
+
+ - rule: 痛风海产品
+   steps:
+    - intent:痛风海产品
+    - action:utter_痛风海产品
+
+ - rule: 何时生活干预
+   steps:
+    - intent:何时生活干预
+    - action:utter_何时生活干预
+
+ - rule: 生活干预成功率
+   steps:
+    - intent:生活干预成功率
+    - action:utter_生活干预成功率
+
+ - rule: 如何生活干预
+   steps:
+    - intent:如何生活干预
+    - action:utter_如何生活干预
+
+ - rule: 何时碱化尿液
+   steps:
+    - intent:何时碱化尿液
+    - action:utter_何时碱化尿液
+
+ - rule: 为何碱化尿液
+   steps:
+    - intent:为何碱化尿液
+    - action:utter_为何碱化尿液
+
+ - rule: 碱化尿液方法
+   steps:
+    - intent:碱化尿液方法
+    - action:utter_碱化尿液方法
+
+ - rule: 碳酸氢钠降尿酸
+   steps:
+    - intent:碳酸氢钠降尿酸
+    - action:utter_碳酸氢钠降尿酸
+
+ - rule: 碳酸氢钠长期吃
+   steps:
+    - intent:碳酸氢钠长期吃
+    - action:utter_碳酸氢钠长期吃
+
+ - rule: 肾结石x光
+   steps:
+    - intent:肾结石x光
+    - action:utter_肾结石x光
+
+ - rule: 尿酸性肾结石
+   steps:
+    - intent:尿酸性肾结石
+    - action:utter_尿酸性肾结石
+
+ - rule: 避免AHS
+   steps:
+    - intent:避免AHS
+    - action:utter_避免AHS
+
+ - rule: 别嘌醇适合哪些人
+   steps:
+    - intent:别嘌醇适合哪些人
+    - action:utter_别嘌醇适合哪些人
+
+ - rule: 非布司他副作用
+   steps:
+    - intent:非布司他副作用
+    - action:utter_非布司他副作用
+
+ - rule: 非布与长期忌口
+   steps:
+    - intent:非布与长期忌口
+    - action:utter_非布与长期忌口
+
+ - rule: 非布提高肌酐怎么办
+   steps:
+    - intent:非布提高肌酐怎么办
+    - action:utter_非布提高肌酐怎么办
+
+ - rule: 国产非布司他那种好
+   steps:
+    - intent:国产非布司他那种好
+    - action:utter_国产非布司他那种好
+
+ - rule: 那种降酸药好
+   steps:
+    - intent:那种降酸药好
+    - action:utter_那种降酸药好
+
+ - rule: 非布与苯溴马隆联合
+   steps:
+    - intent:非布与苯溴马隆联合
+    - action:utter_非布与苯溴马隆联合
+
+ - rule: 碱化尿液与别嘌醇非布司他
+   steps:
+    - intent:碱化尿液与别嘌醇非布司他
+    - action:utter_碱化尿液与别嘌醇非布司他
+
+ - rule: 非布司他分开吃
+   steps:
+    - intent:非布司他分开吃
+    - action:utter_非布司他分开吃
+
+ - rule: 非布司他胸闷
+   steps:
+    - intent:非布司他胸闷
+    - action:utter_非布司他胸闷
+
+ - rule: 脂肪肝也非布司他
+   steps:
+    - intent:脂肪肝也非布司他
+    - action:utter_脂肪肝也非布司他
+
+ - rule: 吃药和吃饭
+   steps:
+    - intent:吃药和吃饭
+    - action:utter_吃药和吃饭
+
+ - rule: 为何直接从非布司他
+   steps:
+    - intent:为何直接从非布司他
+    - action:utter_为何直接从非布司他
+
+ - rule: 如何减量
+   steps:
+    - intent:如何减量
+    - action:utter_如何减量
+
+ - rule: 降酸药是否依赖耐药
+   steps:
+    - intent:降酸药是否依赖耐药
+    - action:utter_降酸药是否依赖耐药
+
+ - rule: 不能吃降酸药的情况
+   steps:
+    - intent:不能吃降酸药的情况
+    - action:utter_不能吃降酸药的情况
+
+ - rule: 是否想吃保肝药物
+   steps:
+    - intent:是否想吃保肝药物
+    - action:utter_是否想吃保肝药物
+
+ - rule: 降酸药备孕
+   steps:
+    - intent:降酸药备孕
+    - action:utter_降酸药备孕
+
+ - rule: 抗炎药备孕
+   steps:
+    - intent:抗炎药备孕
+    - action:utter_抗炎药备孕
+
+ - rule: 停药概率
+   steps:
+    - intent:停药概率
+    - action:utter_停药概率
+
+ - rule: 兼有降酸药物
+   steps:
+    - intent:兼有降酸药物
+    - action:utter_兼有降酸药物
+
+ - rule: 只生活调节饮食控制
+   steps:
+    - intent:只生活调节饮食控制
+    - action:utter_只生活调节饮食控制
+
+ - rule: 菠菜
+   steps:
+    - intent:菠菜
+    - action:utter_菠菜
+
+ - rule: 豆制品
+   steps:
+    - intent:豆制品
+    - action:utter_豆制品
+
+ - rule: 咖啡与茶
+   steps:
+    - intent:咖啡与茶
+    - action:utter_咖啡与茶
+
+ - rule: 降酸药分类
+   steps:
+    - intent:降酸药分类
+    - action:utter_降酸药分类
+
+ - rule: 饮食建议
+   steps:
+    - intent:饮食建议
+    - action:utter_饮食建议
+
+ - rule: 生活方式建议
+   steps:
+    - intent:生活方式建议
+    - action:utter_生活方式建议
+
+ - rule: 别嘌醇副作用
+   steps:
+    - intent:别嘌醇副作用
+    - action:utter_别嘌醇副作用
+
+ - rule: 苯溴马隆注意
+   steps:
+    - intent:苯溴马隆注意
+    - action:utter_苯溴马隆注意
+
