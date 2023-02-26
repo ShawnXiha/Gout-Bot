@@ -1,247 +1,327 @@
-version: '2.0'
+version: '3.1'
 
 nlu:
-- intent: �ҿ�
+- intent: 挂号科室
   examples: |
-    - ʹ���ʲô�ƣ�
+    - 使用苯溴马隆需要注意什么
 
-- intent: �ǲ�˾�����
+- intent: 非布司他体检
   examples: |
-    - ���÷ǲ�˾��Ӧ������Щ��죿
+    - 使用苯溴马隆需要注意什么
 
-- intent: ���Ѵ����
+- intent: 别嘌醇体检
   examples: |
-    - ���ñ��Ѵ���Ҫ��ʲô���
+    - 使用苯溴马隆需要注意什么
 
-- intent: ������¡���
+- intent: 苯溴马隆体检
   examples: |
-    - ���ñ�����¡Ӧ������Щ��죿
+    - 使用苯溴马隆需要注意什么
 
-- intent: ��֢״���������
+- intent: 无症状高尿酸体检
   examples: |
-    - ��֢״������δ��ҩӦ������Щ��죿
+    - 使用苯溴马隆需要注意什么
 
-- intent: ��Ϊ�ܾ�ʹ
+- intent: 何为溶晶痛
   examples: |
-    - ʲô�ǡ��ܾ�ʹ����
+    - 使用苯溴马隆需要注意什么
 
-- intent: �ܾ��ص�
+- intent: 溶晶特点
   examples: |
-    - ���ܾ�ʹ����ʲô�ص㣿
+    - 使用苯溴马隆需要注意什么
 
-- intent: Ԥ���ܾ�
+- intent: 预防溶晶
   examples: |
-    - ���Ԥ���ܾ�ʹ��
+    - 使用苯溴马隆需要注意什么
 
-- intent: ��δ����ܾ�
+- intent: 如何处理溶晶
   examples: |
-    - ���ܾ�ʹ����ô������
+    - 使用苯溴马隆需要注意什么
 
-- intent: �ܾ�ʹʱ��
+- intent: 溶晶痛时间
   examples: |
-    - ���ܾ�ʹ���������ã�
+    - 使用苯溴马隆需要注意什么
 
-- intent: �ж��ܾ�
+- intent: 判断溶晶
   examples: |
-    - �����᳤�� 360 �����ˣ�û�С��ܾ�ʹ���������ܾ���
+    - 使用苯溴马隆需要注意什么
 
-- intent: �ܾ���ʱ��
+- intent: 溶晶期时间
   examples: |
-    - �ܾ�����Ҫ��ã�ʲôʱ����԰ѽᾧ�ܽ��ꣿ
+    - 使用苯溴马隆需要注意什么
 
-- intent: ʹ��ȷ��
+- intent: 溶晶阶段
   examples: |
-    - ʹ����ôȷ�
+    - 使用苯溴马隆需要注意什么
 
-- intent: Ϊ�η��������
+- intent: 痛风确诊
   examples: |
-    - ʹ�緢��ʱ������Ƚϵͣ�
+    - 使用苯溴马隆需要注意什么
 
-- intent: ʹ�����
+- intent: 为何发作尿酸低
   examples: |
-    - ʹ����ô���𣬱�������?
+    - 使用苯溴马隆需要注意什么
 
-- intent: ʹ�缱�Է���������
+- intent: 痛风鉴别
   examples: |
-    - ��ЩЩ���ػ�����ʹ�缱�Է�����
+    - 使用苯溴马隆需要注意什么
 
-- intent: ʹ�緢����δ���
+- intent: 痛风急性发作的因素
   examples: |
-    - ʹ�緢����ô����?
+    - 使用苯溴马隆需要注意什么
 
-- intent: ʹ��Σ��
+- intent: 镇痛心得
   examples: |
-    - ʹ����ʲôΣ��?
+    - 使用苯溴马隆需要注意什么
 
-- intent: ����ͣҩ
+- intent: 痛风发作处理
   examples: |
-    - ͣҩ�������ô����
+    - 使用苯溴马隆需要注意什么
 
-- intent: ���᲻���
+- intent: 痛风长期不好的原因
   examples: |
-    - ���᲻������ô����
+    - 使用苯溴马隆需要注意什么
 
-- intent: ���ͣҩ
+- intent: 痛风长期不好的处理
   examples: |
-    - ʲôʱ����ͣҩ��
+    - 使用苯溴马隆需要注意什么
 
-- intent: ʹ��ʯԭ��������
+- intent: 痛风危害
   examples: |
-    - ʹ��ϲ�ʹ��ʯԭ�����ô���ƣ�
+    - 使用苯溴马隆需要注意什么
 
-- intent: �����޷�����
+- intent: 降尿酸目标
   examples: |
-    - ʹ�粻�ܸ��Σ�һ���Ӷ�Ҫ�������£�
+    - 使用苯溴马隆需要注意什么
 
-- intent: ��ҩ������û����
+- intent: 药物治疗的时机
   examples: |
-    - ��Ȼʹ���Ǹ����������⣬������ҩ�����������ͺ�����
+    - 使用苯溴马隆需要注意什么
 
-- intent: �Ƽ�������
+- intent: 非药物治疗
   examples: |
-    - ��ʲô����/Ѫѹ/Ѫ�ǲ��������Ƽ���?
+    - 使用苯溴马隆需要注意什么
 
-- intent: С����ĭ
+- intent: 痛风阶段
   examples: |
-    - С������ĭ��ô��?
+    - 使用苯溴马隆需要注意什么
 
-- intent: ʹ���Ŵ�
+- intent: 不痛不治
   examples: |
-    - ʹ����Ŵ����Լ��ĺ��ӣ�
+    - 使用苯溴马隆需要注意什么
 
-- intent: ʹ������
+- intent: 秋水仙碱副作用大
   examples: |
-    - ʹ��Ӱ��������
+    - 使用苯溴马隆需要注意什么
 
-- intent: ʹ�纣��Ʒ
+- intent: 无症状高尿酸血症的治疗
   examples: |
-    - ����ʹ�������뺣��Ʒ��Ե��
+    - 使用苯溴马隆需要注意什么
 
-- intent: ��ʱ�����Ԥ
+- intent: 过早停药
   examples: |
-    - ʲô������ʺ������Ԥ��
+    - 使用苯溴马隆需要注意什么
 
-- intent: �����Ԥ�ɹ���
+- intent: 尿酸不达标
   examples: |
-    - �����Ԥ�ĳɹ����ж��٣�
+    - 使用苯溴马隆需要注意什么
 
-- intent: ��������Ԥ
+- intent: 如何停药
   examples: |
-    - �����Ԥ����Щ��
+    - 使用苯溴马隆需要注意什么
 
-- intent: Ϊ�μ��Һ
+- intent: 痛风石原因与治疗
   examples: |
-    - ΪʲôҪ���Һ��
+    - 使用苯溴马隆需要注意什么
 
-- intent: ���Һ����
+- intent: 担忧无法根治
   examples: |
-    - ���Һ�ķ�������Щ��
+    - 使用苯溴马隆需要注意什么
 
-- intent: ̼�����ƽ�����
+- intent: 中药调理有没有用
   examples: |
-    - ����̼�����ƿ��Խ����᣿
+    - 使用苯溴马隆需要注意什么
 
-- intent: ̼�����Ƴ��ڳ�
+- intent: 推荐尿酸仪
   examples: |
-    - ̼������˵����д���ܳ��� 7 �죬Ϊʲôҽ����һ���£�
+    - 使用苯溴马隆需要注意什么
 
-- intent: ����ʯx��
+- intent: 小便泡沫
   examples: |
-    - X �߼���ܲ鵽����������ʯ��
+    - 使用苯溴马隆需要注意什么
 
-- intent: ����������ʯ
+- intent: 痛风遗传
   examples: |
-    - ����������ʯ��ô���ƣ�
+    - 使用苯溴马隆需要注意什么
 
-- intent: ����ahs
+- intent: 痛风寿命
   examples: |
-    - ��α��� AHS �ķ�����
+    - 使用苯溴马隆需要注意什么
 
-- intent: ���Ѵ��ʺ���Щ��
+- intent: 痛风海产品
   examples: |
-    - ��Щ��Ⱥ���ñ𴼣�
+    - 使用苯溴马隆需要注意什么
 
-- intent: �ǲ�˾��������
+- intent: 何时生活干预
   examples: |
-    - �ǲ�˾�������úͲ�����Ӧ����Щ��
+    - 使用苯溴马隆需要注意什么
 
-- intent: �ǲ��볤�ڼɿ�
+- intent: 生活干预成功率
   examples: |
-    - ���÷ǲ�˾����Ҫ���ڼɿ���
+    - 使用苯溴马隆需要注意什么
 
-- intent: �ǲ���߼�����ô��
+- intent: 如何生活干预
   examples: |
-    - ���÷ǲ�˾��������������ô�죿
+    - 使用苯溴马隆需要注意什么
 
-- intent: �����ǲ�˾�����ֺ�
+- intent: 何时碱化尿液
   examples: |
-    - �������������ã�������ʲô�ص㣿
+    - 使用苯溴马隆需要注意什么
 
-- intent: ���ֽ���ҩ��
+- intent: 为何碱化尿液
   examples: |
-    - ����ҩ�ֺã����ָ�������С��
+    - 使用苯溴马隆需要注意什么
 
-- intent: �ǲ��뱽����¡����
+- intent: 碱化尿液方法
   examples: |
-    - �ǲ�˾���ͱ�����¡����һ�����
+    - 使用苯溴马隆需要注意什么
 
-- intent: ���Һ����Ѵ��ǲ�˾��
+- intent: 碳酸氢钠降尿酸
   examples: |
-    - ���Ѵ��ͷǲ�˾����Ҫ���Һ��
+    - 使用苯溴马隆需要注意什么
 
-- intent: �ǲ�˾���ֿ���
+- intent: 碳酸氢钠长期吃
   examples: |
-    - �ǲ�˾���ֿ��������Զ��⽵������
+    - 使用苯溴马隆需要注意什么
 
-- intent: �ǲ�˾������
+- intent: 肾结石x光
   examples: |
-    - ���˷ǲ�˾�����ƣ��߹ǻ������฽����ʹ�У���ʲôԭ��
+    - 使用苯溴马隆需要注意什么
 
-- intent: ֬����Ҳ�ǲ�˾��
+- intent: 尿酸性肾结石
   examples: |
-    - ����֬���Σ����ԳԷǲ�˾����
+    - 使用苯溴马隆需要注意什么
 
-- intent: ��ҩ�ͳԷ�
+- intent: 避免AHS
   examples: |
-    - ���Ѵ�/�ǲ�˾��/������¡Ӧ�ո����û��ǲͺ����
+    - 使用苯溴马隆需要注意什么
 
-- intent: Ϊ��ֱ�Ӵӷǲ�˾��
+- intent: 别嘌醇适合哪些人
   examples: |
-    - Ϊʲôҽ��û�и��������;͸��ҿ��ǲ�˾����
+    - 使用苯溴马隆需要注意什么
 
-- intent: ��μ���
+- intent: 非布司他副作用
   examples: |
-    - ����ҩɶʱ����Լ����أ�
+    - 使用苯溴马隆需要注意什么
 
-- intent: ����ҩ���
+- intent: 非布与长期忌口
   examples: |
-    - ����ҩӦ������Щ��죿
+    - 使用苯溴马隆需要注意什么
 
-- intent: ����ҩ�Ƿ�������ҩ
+- intent: 非布提高肌酐怎么办
   examples: |
-    - ����ҩ������ҩ�Ժ�����������˵������ͣ�����ˣ�
+    - 使用苯溴马隆需要注意什么
 
-- intent: ���ܳԽ���ҩ�����
+- intent: 国产非布司他那种好
   examples: |
-    - ʲô����²��ܳԽ���ҩ��
+    - 使用苯溴马隆需要注意什么
 
-- intent: �Ƿ���Ա���ҩ��
+- intent: 那种降酸药好
   examples: |
-    - ��ҩ���ˡ��Σ��ҿ����ȳԻ���ҩ����
+    - 使用苯溴马隆需要注意什么
 
-- intent: ����ҩ����
+- intent: 非布与苯溴马隆联合
   examples: |
-    - �Խ���ҩ���Ա�����
+    - 使用苯溴马隆需要注意什么
 
-- intent: ����ҩ����
+- intent: 碱化尿液与别嘌醇非布司他
   examples: |
-    - ��ˮ�ɼ�����忹��ҩ���п��Է�����
+    - 使用苯溴马隆需要注意什么
 
-- intent: ͣҩ����
+- intent: 非布司他分开吃
   examples: |
-    - ����ҩ��Ҫ������ҩ��ͣҩ�ĸ����ж��٣�
+    - 使用苯溴马隆需要注意什么
 
-- intent: ���н���ҩ��
+- intent: 非布司他胸闷
   examples: |
-    - �潵�����ҩ������Щ��
+    - 使用苯溴马隆需要注意什么
+
+- intent: 脂肪肝也非布司他
+  examples: |
+    - 使用苯溴马隆需要注意什么
+
+- intent: 吃药和吃饭
+  examples: |
+    - 使用苯溴马隆需要注意什么
+
+- intent: 为何直接从非布司他
+  examples: |
+    - 使用苯溴马隆需要注意什么
+
+- intent: 如何减量
+  examples: |
+    - 使用苯溴马隆需要注意什么
+
+- intent: 降酸药是否依赖耐药
+  examples: |
+    - 使用苯溴马隆需要注意什么
+
+- intent: 不能吃降酸药的情况
+  examples: |
+    - 使用苯溴马隆需要注意什么
+
+- intent: 是否想吃保肝药物
+  examples: |
+    - 使用苯溴马隆需要注意什么
+
+- intent: 降酸药备孕
+  examples: |
+    - 使用苯溴马隆需要注意什么
+
+- intent: 抗炎药备孕
+  examples: |
+    - 使用苯溴马隆需要注意什么
+
+- intent: 停药概率
+  examples: |
+    - 使用苯溴马隆需要注意什么
+
+- intent: 兼有降酸药物
+  examples: |
+    - 使用苯溴马隆需要注意什么
+
+- intent: 只生活调节饮食控制
+  examples: |
+    - 使用苯溴马隆需要注意什么
+
+- intent: 菠菜
+  examples: |
+    - 使用苯溴马隆需要注意什么
+
+- intent: 豆制品
+  examples: |
+    - 使用苯溴马隆需要注意什么
+
+- intent: 咖啡与茶
+  examples: |
+    - 使用苯溴马隆需要注意什么
+
+- intent: 降酸药分类
+  examples: |
+    - 使用苯溴马隆需要注意什么
+
+- intent: 饮食建议
+  examples: |
+    - 使用苯溴马隆需要注意什么
+
+- intent: 生活方式建议
+  examples: |
+    - 使用苯溴马隆需要注意什么
+
+- intent: 别嘌醇副作用
+  examples: |
+    - 使用苯溴马隆需要注意什么
+
+- intent: 苯溴马隆注意
+  examples: |
+    - 使用苯溴马隆需要注意什么
 

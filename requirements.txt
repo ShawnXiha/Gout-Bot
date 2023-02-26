@@ -2,3 +2,4 @@ jieba
 rasa
 pyyaml
 pymupdf
+pandas
